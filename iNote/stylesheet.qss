@@ -1,0 +1,50 @@
+
+QWidget{
+    background-color: rgb(245, 245, 245);
+	border-color: rgb(245, 245, 245);
+}
+
+QTabBar::tab{
+              background-color: rgb(245, 245, 245);
+			  font-weight:bold;
+			  font-size:16px "YouYuan";    /*字体大小，字体*/
+			  text-decoration: underline;  /*文本下划线*/
+			 }
+QTabBar::tab:hover{
+              background-color: rgb(200, 200, 200);
+			  }
+/*QtabWidgt下半部条样式表*/
+QTabWidget::pane{
+                border-style:none;
+				}
+QPlainTextEdit{
+			  background-color: rgb(250, 250, 250);
+			  border-style:none;
+			  font-size:16px "YouYuan";    /*字体大小，字体*/
+			  /*text-decoration: underline; *//*文本下划线*/
+			}
+/*垂直分割条样式表*/
+QSplitter::handle:horizontal {
+			  width:5px;
+			  background-color: rgb(230, 230, 230);
+}
+
+QPushButton{
+			background-color: rgb(250, 250, 250);
+			border-style:none;
+		   }
+QPushButton:hover{
+			background-color: rgb(200, 200, 200);
+		   }
+/*QCombox Style*/
+QComboBox{
+			background-color: rgb(250, 250, 250);
+			border-style:none;
+		   }
+QComboBox::hover {
+			background-color: rgb(240, 240, 240);
+			border-style:none;
+}
+QGroupBox{
+			background-color: rgb(250, 250, 250);
+		  }

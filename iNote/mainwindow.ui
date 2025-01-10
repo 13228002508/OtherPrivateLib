@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>892</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>iNote</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/Res/log.jpg</normaloff>:/Res/log.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>892</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionantTionOpenFilePath"/>
+   </widget>
+   <widget class="QMenu" name="menuRedo">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="actSave"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>段落</string>
+    </property>
+    <addaction name="actionfristTitle"/>
+    <addaction name="actionSecondTitle"/>
+    <addaction name="actionThirdTitle"/>
+    <addaction name="actionfourthTitle"/>
+    <addaction name="separator"/>
+    <addaction name="actionContent"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>格式</string>
+    </property>
+    <addaction name="actionBold"/>
+    <addaction name="actionitalic"/>
+    <addaction name="actionCode"/>
+    <addaction name="actionCode_2"/>
+    <addaction name="actionHttpLinl"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionShowSiderbar"/>
+    <addaction name="actionfileOutLine"/>
+    <addaction name="actionfileList"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>主题</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuRedo"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+  </widget>
+  <action name="actionNew">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionfristTitle">
+   <property name="text">
+    <string>一级标题</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Q</string>
+   </property>
+  </action>
+  <action name="actionSecondTitle">
+   <property name="text">
+    <string>二级标题</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+W</string>
+   </property>
+  </action>
+  <action name="actionThirdTitle">
+   <property name="text">
+    <string>三级标题</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionfourthTitle">
+   <property name="text">
+    <string>四级标题</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+R</string>
+   </property>
+  </action>
+  <action name="actionContent">
+   <property name="text">
+    <string>段落</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+T</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="text">
+    <string>加粗</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionitalic">
+   <property name="text">
+    <string>斜体</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionCode">
+   <property name="text">
+    <string>下划线</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionCode_2">
+   <property name="text">
+    <string>代码</string>
+   </property>
+  </action>
+  <action name="actionHttpLinl">
+   <property name="text">
+    <string>超链接</string>
+   </property>
+  </action>
+  <action name="actionShowSiderbar">
+   <property name="text">
+    <string>显示/隐藏侧边栏</string>
+   </property>
+  </action>
+  <action name="actionfileOutLine">
+   <property name="text">
+    <string>大纲</string>
+   </property>
+  </action>
+  <action name="actionfileList">
+   <property name="text">
+    <string>文档列表</string>
+   </property>
+  </action>
+  <action name="actionantTionOpenFilePath">
+   <property name="text">
+    <string>打开文件夹</string>
+   </property>
+  </action>
+  <action name="actSave">
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
